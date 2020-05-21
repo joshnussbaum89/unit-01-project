@@ -88,6 +88,17 @@ header .profile-image:hover {
 
 /* --- */
 
+/* hobbies page picture */
+
+.hobbies-banner {
+  background: url('images/hobbies.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+/* --- */
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -98,7 +109,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(255, 255, 68);
 }
 .card {
   margin: 30px;
@@ -111,8 +122,19 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #155c1f;
 }
+
+/* .card-pic {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 10%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+} */
 
 ul.skills {
   padding: 0;
